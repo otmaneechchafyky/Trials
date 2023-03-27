@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Outfit:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dongle', sans-serif;
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+}
+
+.logo #header-img {
+    margin: 2.5vh;
+    width: 20vw;
+    height: 5vh;
+}
+
+#nav-bar {
+    margin: 4vh 2.5vh 2.5vh 45vw;
+}
+
+header nav a {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: rgb(130, 191, 232);
+    text-decoration: none;
+    margin-right: 3vw;
+}
+
+section form {
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section form h1 {
+    font-size: 3em;
+    margin-bottom: 1vh;
+}
+
+section form input {
+    font-size: 1.5em;
+    margin-bottom: 1vh;
+    padding-left: 5px;
+    width: 20vw;
+    height: 4vh;
+}
+
+section form button {
+    font-size: 1.5em;
+    margin-bottom: 1vh;
+    padding-left: 5px;
+    width: 10vw;
+    height: 4vh;
+    font-weight: 800;
+    background-color: rgb(245, 202, 31);
+    border-radius: 2px;
+    border: 0;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> bddf05ab70a3c456ff49d45815e0f43a89d85c6d
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: 60vh;
+    margin-top: 10vh;
+    font-size: 2em;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 5vw 0 0;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+i {
+    margin: 1.5vh 0 8vh 0;
+    color: rgb(130, 191, 232);
+}
+
+.description div h2 {
+    height: 2vh;
+    margin-bottom: 3vh;
+}
+
+.description div {
+    margin-bottom: 4vh; 
+}
+
+.description div p {
+    font-size: .8em;
+}
+.video {
+    margin-top: 5vh;
+}
+
+.footer {
+    width: 70vw;
+    height: 10vh;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgb(228, 228, 228);
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2vh;
+}
+
+.end a {
+    font-size: 1.7em;
+    text-decoration: none;
+    color: black;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> bddf05ab70a3c456ff49d45815e0f43a89d85c6d
